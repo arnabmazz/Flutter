@@ -1,16 +1,17 @@
 # phone_number_validation_app
 
-A new Flutter project.
+A Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Please use your own __accountSid__ & __authToken__ from Twilio on the twilio_service.dart file, as the provided authToken might expire.
 
-A few resources to get you started if this is your first Flutter project:
+2. For simplicity, the application is easier to be executed on a browser. Please use the commands provided below to do so - 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- flutter pub get
+
+- flutter run -d chrome --web-browser-flag "--disable-web-security"
+
+
+

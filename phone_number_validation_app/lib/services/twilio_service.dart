@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class TwilioService {
   final String accountSid = 'AC1cce5bd64458f191fa6c34509f401d6c';
-  final String authToken = '0d898e507b1685db36ccdc09585711b1';
+  final String authToken = '5c4d107d1d2d4c3872cdd038ea3044e0';
   final String lookupUrl = 'https://lookups.twilio.com/v1/PhoneNumbers/';
 
   Future<bool> validatePhoneNumber(String phoneNumber) async {
